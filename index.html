@@ -1,188 +1,384 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Radix-Next</title>
-		<meta name="author" content="vicstef"/>
-		<meta name="date" content="19/06/17"/>
-		<meta name="keyword" content="radix-next"/>
+<html lang="en">
+<head>
+	<title>bootstrap website</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
 
-		<link rel="stylesheet" type="text/css" href="main.css"/>
-	</head>
+	<!--meta tags-->
+	<meta name="date" content="13/07/17">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
 
-	<body>
-		<main>
-		<nav>
-			<div class="row"  id="nav-one">
-				<div class="col-md-12">
-					<img src="imgs/2.png" alt="image">
-						 <!--<li class="volunteer"><a href="#">BECOME VOLUNTEER</a></li>-->
-				</div>
-			</div>	
-		</nav>
-			<header>
-				<div id="nav-two">
-					<div id="nav-links">
-						<li><a href="#">HOME</a></li>
-						<li><a href="#">GALLERY</a></li>
-						<li><a href="#">ABOUT-US</a></li>
-						<li><a href="#">EVENT</a></li>
-						<li><a href="#">CONTACT-US</a></li>
-						<li><a href="#">BLOG</a></li>
-						<li>
-							<div id="search-box">
-								<input type="search" placeholder="search">
-							</div>
-						</li>
-					</div>
-				</div>
+<nav class="navbar navbar-default" role="navigation">
+	<div class="container">
+		<div class="navbar-header">
+		<button type="button" class="navbar-toggle" data-toggle="collapse"
+			data-target="#example-navbar-collapse">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+		<a class="navbar-brand" href="#">
+			<img class="img-thumbnail" src="imgs/logo.jpeg" width="100px" height="100px">
+		</a>
+	</div>
 
-			</header>
+	<div class="collapse navbar-collapse pull-right" id="example-navbar-collapse">
+		<ul class="nav navbar-nav">
+			<li ><a href="#">Home</a></li>
 
-			<section id="content">
-				<div id="content-one">
-					<p class="help">Donate & Help<br>
-					<span>Rural Girls For Educaton Through Technology</span></p>
-					<p class="bridge">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod<br>
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,<br>
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo<br>
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse<br>
-					cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non<br>
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <br><br></p><br><br><br>
-
-					<button>DONATE NOW</button>
-				</div>
-
-			</section>
-
-			<section id="sub-content">
-				<div>
-				<p>Checkout whats going on.<span class="news"><a href="#">Latest News</a></span></p>
-				</div>
-			</section>
-
-			<article>
-				<div class="main-card">
-					<div class="card">
-						<div class="hoverable">
-							<div class="art-content">
-								<p class="card-title"> upcoming events</p>
-								<p>
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-									consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-									cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-									proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-								</p>
-							</div>
-							<div class="read-more">
-								<button class="center"><a href="">READ MORE</a></button>
-							</div>
-						</div>
-					</div>
-
-					<div class="card">
-						<div class="hoverable">
-							<div class="art-content">
-								<p class="card-title"> updates</p>
-								<p>
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-									consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-									cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-									proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-								</p>
-							</div>
-							<div class="read-more">
-								<button class="center"><a href="">READ MORE</a></button>
-							</div>
-						</div>
-					</div>
-
-					<div class="card">
-						<div class="hoverable">
-							<div class="art-content">
-								<p class="card-title"> announcements</p>
-								<p>
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-									consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-									cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-									proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-								</p>
-							</div>
-							<div class="read-more">
-								<button class="center"><a href="">READ MORE</a></button>
-							</div>
-						</div>
-					</div>
-				</div>
-			</article>
-
-			<div class="contact-us">
-				<div class="contact">
-					<p>Contact-Us</p>
-					<form action="">
-						<div class="input-field">
-							<label>Name</label>
-							<input type="text" id="name" class="contact-input">
-						</div>
-						<div class="input-field">
-							<label>Email</label>
-							<input type="email" name="email" class="contact-input">
-						</div>
-						<div class="input-field">
-							<label>Number</label>
-							<input type="tel" name="number" class="contact-input">
-						</div>
-						<div class="input-field">
-							<label>Message</label>
-							<textarea rows="4" name=""></textarea>
-						</div>
-						<div class="input-field" id="input-submit">
-							<input class="submit" type="submit" value="SEND" class="contact-input">
-						</div>
-					</form>
-				</div>
-			</div>
-
-			<footer>
-				<div class="main-footer">
-					<div class="icy">
-						<p><a href="">icystep@perfectpair.com</a></p>
-					</div>
-					<div class="icy">
-						<p class="text-center">&copy; 2017 | All Rights Reserved</p> <p class="text-center">icystep</p>
-					</div>
-					<div class="icy">
-						<a href=""><img src="imgs/fb.png" alt=""></a>
-						<a href=""><img src="imgs/wh.png" alt=""></a>
-						<a href=""><img src="imgs/tw.png" alt=""></a>
-					</div>
-				</div>
-			</footer>
-		</main>
-	</body>
-</html>
-
-<!--<html>
-	<head>
-		<title>inline divs</title>
-		<link rel="stylesheet" type="text/css" href="main.css">
-	</head>
-
-	<body>
-		<div id="header">
-			<div id="logo" class="block"><h1>Logo Place</h1></div>
-			<div id="navigation" class="block">
-				<ul>
-					<li><a href="index.html" class="current"><span class="meta">Homepage</span><br>Home</a></li>
-					<li><a href="about.html" class="current"><span class="meta">Who we are</span><br>About us</a></li>
-					<li><a href="contact.html" class="current"><span class="meta">Get In Touch</span><br>contact us</a></li>
+			<li>
+				<a href="#">About</a></li>
+			<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+				Contact<b class="caret"></b>
+				</a>
+				<ul class="dropdown-menu">
+					<li><a href="#">Address</a></li>
+					<li><a href="#">Number</a></li>
 				</ul>
+			</li>
+			<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+				Get-Involved<b class="caret"></b>
+				</a>
+				<ul class="dropdown-menu">
+					<li><a href="#">volunteer</a></li>
+					<li><a href="#id01">Sponsor/Partner</a></li>
+					<li><a href="#">Ambassador</a></li>
+				</ul>
+				<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+				Event<b class="caret"></b>
+				</a>
+				<ul class="dropdown-menu">
+					<li><a href="#">Upcoming Event</a></li>
+					<li><a href="#">Past</a></li>
+					<li><a href="#">Announcements</a></li>
+				</ul>
+			</li>
+			</li>
+		</ul>
+	</div>
+	</div>
+</nav>
+
+
+<div class="slider">
+	<div id="myCarousel" class="carousel slide">
+		<!-- Carousel indicators -->
+		<ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="1"></li>
+			<li data-target="#myCarousel" data-slide-to="2"></li>
+		</ol>
+
+		 <!-- Carousel items -->
+		<div class="carousel-inner">
+			<div class="item active">
+				<img src="imgs/44.jpeg" alt="First slide">
+				<div class="carousel-caption">The Lord will fight for you</div>
+			</div>
+			<div class="item">
+				<img src="imgs/55.jpg" alt="Second slide">
+				<div class="carousel-caption">Troubles come at night but the favor of God will shine</div>
+			</div>
+			<div class="item">
+				<img src="imgs/22.jpeg" alt="Third slide">
+				<div class="carousel-caption">Grace will locate me in all my doings</div>
 			</div>
 		</div>
-	</body>
-</html>-->
+	</div>
+</div>
+
+<div class="container" class="modal">
+<!-- Trigger the modal with a button -->
+	<div class="text-center">
+		<p>click here to <span><button class="text-center" class="btn btn-primary btn-lg" data-toggle="modal"data-target="#myModal">Donate</button></span></p>
+	</div>
+<div class="container">
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="text-center" class="modal-title">Radix Next </h4>
+        </div>
+        <div class="modal-body">
+          <p class="text-center">--welcome--.</p>
+          <form method="" >
+			<!-- your regular form follows -->
+			<table width=518 border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+			  <tr bgcolor="#E5E5E5"> 
+			    <td height="22" colspan="3" align="left" valign="middle"><strong>&nbsp;Please Fill the Basic Information (required)</strong></td>
+			  </tr>
+			  <tr> 
+			    <td height="22" width="180" align="right" valign="middle">First Name:</td>
+			    <td colspan="2" align="left"><input name="firstName" type="text" size="50"></td>
+			  </tr>
+			  <tr> 
+			    <td height="22" align="right" valign="middle">Last Name:</td>
+			    <td colspan="2" align="left"><input name="lastName" type="text" size="50"></td>
+			  </tr>
+			  <tr> 
+			    <td height="22" align="right" valign="middle">Company (optional):</td>
+			    <td colspan="2" align="left"><input name="company" type="text" size="50"></td>
+			  </tr> 
+			  <tr> 
+			    <td height="22" align="right" valign="middle"> Address:</td>
+			    <td colspan="2" align="left"><input name="address1" type="text" value="" size="50"></td>
+			  </tr> 
+			  <tr> 
+			    <td height="22" align="right" valign="middle">City:</td>
+			    <td colspan="2" align="left"><input name="city" type="text" value="" size="50"></td>
+			  </tr>
+			  <tr> 
+			    <td height="22" align="right" valign="middle">State/Province:</td>
+			    <td colspan="2" align="left"><input name="state" type="text" value="" size="50"></td>
+			  </tr>
+			  <tr> 
+			    <td height="22" align="right" valign="middle">Country:</td>
+			    <td colspan="2" align="left"><input name="country" type="text" value="" size="50"></td>
+			  </tr>
+			  <tr> 
+			    <td height="22" align="right" valign="middle">Phone:</td>
+			    <td colspan="2" align="left"><input name="phone" type="text" value="" size="50"></td>
+			  </tr>
+			  <tr> 
+			    <td height="22" colspan="3" align="left" valign="middle">&nbsp;</td>
+			  </tr>
+			  <tr bgcolor="#E5E5E5"> 
+			    <td height="22" colspan="3" align="left" valign="middle"><strong>&nbsp;Credit Card (required)</strong></td>
+			  </tr>
+			  <tr> 
+			    <td height="22" align="right" valign="middle">Credit Card Number:</td>
+			    <td colspan="2" align="left"><input name="CCNo" type="text" value="" size="19" maxlength="40"></td>
+			  </tr>
+			  <tr> 
+			    <td height="22" align="right" valign="middle">Expiry Date:</td>
+			    <td colspan="2" align="left">
+			      <SELECT NAME="CCExpiresMonth" >
+			        <OPTION VALUE="" SELECTED>--Month--
+			        <OPTION VALUE="01">January (01)
+			        <OPTION VALUE="02">February (02)
+			        <OPTION VALUE="03">March (03)
+			        <OPTION VALUE="04">April (04)
+			        <OPTION VALUE="05">May (05)
+			        <OPTION VALUE="06">June (06)
+			        <OPTION VALUE="07">July (07)
+			        <OPTION VALUE="08">August (08)
+			        <OPTION VALUE="09">September (09)
+			        <OPTION VALUE="10">October (10)
+			        <OPTION VALUE="11">November (11)
+			        <OPTION VALUE="12">December (12)
+			      </SELECT> /
+			      <SELECT NAME="CCExpiresYear">
+			        <OPTION VALUE="" SELECTED>--Year--
+			        <OPTION VALUE="04">2004
+			        <OPTION VALUE="05">2005
+			        <OPTION VALUE="06">2006
+			        <OPTION VALUE="07">2007
+			        <OPTION VALUE="08">2008
+			        <OPTION VALUE="09">2009
+			        <OPTION VALUE="10">2010
+			        <OPTION VALUE="11">2011
+			        <OPTION VALUE="12">2012
+			        <OPTION VALUE="13">2013
+			        <OPTION VALUE="14">2014
+			        <OPTION VALUE="15">2015
+			      </SELECT>
+			    </td>
+			  </tr>
+			  <tr> 
+			    <td height="22" colspan="3" align="left" valign="middle">&nbsp;</td>
+			  </tr>
+			  <tr bgcolor="#E5E5E5"> 
+			    <td height="22" colspan="3" align="left" valign="middle"><strong>&nbsp;Additional Information</strong></td>
+			  </tr>
+			  <tr> 
+			    <td height="22" align="right" valign="middle">Contact Email:</td>
+			    <td colspan="2" align="left"><input name="contactEmail" type="text" value="" size="50"></td>
+			  </tr>
+			  <tr> 
+			    <td height="22" colspan="3" align="left" valign="middle">&nbsp;</td>
+			  </tr>
+			  <tr> 
+			    <td height="22" align="right" valign="top">Special Notes:</td>
+			    <td colspan="2" align="left"><textarea name="notes" cols="45" rows="4"></textarea></td>
+			  </tr>
+			</table>
+			</form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-default" data-dismiss="modal">Send</button>
+        </div>
+     </div>
+      
+    </div>
+  </div>
+  
+	</div>
+</div>
+
+
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-4 col-sm-4 max-height">
+			<div class="hoverable">
+				<p class="text-center">UPDATE</p>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+				<div class="">
+					<a href="#"><p class="text-center">READ MORE</p></a>
+				</div>
+			</div>
+
+		</div>
+		<div class="col-md-4 col-sm-4 max-height">
+			<div class="hoverable">
+				<p class="text-center">ANNOUNCEMENT</p>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+				<div>
+					<a href="#"><p class="text-center">READ MORE</p></a>
+				</div>
+			</div>		
+
+		</div>
+		<div class="col-md-4 col-sm-4 max-height">
+			<div class="hoverable">
+				<p class="text-center"> UPCOMING EVENTS</p>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+				<div>
+					<a href="#"><p class="text-center">READ MORE</p></a>
+				</div>
+			</div>		
+
+		</div>
+	</div>
+</div>
+
+
+<div class="container contact-us">
+	<div class="row">
+		<div class="col-md-6 col-md-offset-3 contact">
+			<p class="text-center" style="color:#fff; font-size:20px;">Contact Us</p>
+				<form action="">
+					<div class="input-field">
+						<label for="name">Name</label>
+						<input type="text" id="name">
+					</div>
+					<div class="input-field">
+						<label for="email">Email</label>
+						<input type="email" id="email">
+					</div>
+					<div class="input-field">
+						<label for="number">Number</label>
+						<input type="tel" id="number">
+					</div>
+					<div class="input-field">
+						<label for="message">Message</label>
+						<textarea name="" rows="4" id="message"></textarea>
+					</div>
+					<div class="input-field text-center">
+						<input type="submit" value="SEND" class="btn btn-teal hoverable">
+					</div>
+				</form>
+		</div>
+	</div><div></div>
+</div>
+
+<footer>
+	
+	<div class="container">
+		<div class="row">
+			<div class="social-media">
+				<ul>
+					<li>
+						<a class="btn btn-block btn-social btn-twitter socialClick" href="https://twitter.com/developersinvogue" target="_blank">
+						  <span class="fa fa-twitter"></span>
+						</a>
+					</li>
+					<li>
+						<a class="btn btn-block btn-social btn-facebook socialClick" href="https://facebook.com/developersinvogue" target="_blank">
+						  <span class="fa fa-facebook"></span>
+						</a>
+					</li>
+						<li>
+						<a class="btn btn-block btn-social btn-instagram socialClick" href="https://instagram.com/developersinvogue" target="_blank">
+						  <span class="fa fa-instagram"></span>
+						</a>
+					</li>
+					<li>
+						<a class="btn btn-block btn-social btn-google socialClick" href="https://google.com/developersinvogue" target="_blank">
+						  <span class="fa fa-google"></span>
+						</a>
+					</li>
+					<li>
+						<a class="btn btn-block btn-social btn-dropbox socialClick" href="https://dropbox.com/developersinvogue" target="_blank">
+						  <span class="fa fa-dropbox"></span>
+						</a>
+					</li>
+					<li>
+						<a class="btn btn-block btn-social btn-github socialClick" href="https://github.com/developersinvogue" target="_blank" >	<span class="fa fa-github"></span>
+						</a>
+					</li>				
+				</ul>
+				<div class="icy">
+					<div >
+						<p class="text-center">icystep | &copy; 2017 | All Rights Reserved</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+<!--javascripts-->
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/bootstrap.min.js"></script>	
+<script src="js/docs.js"></script>
+<script src="jquery.js"></script>
+
+<script>
+	$(function () { $('#myModal').modal('hide')})});
+</script>
+<script>
+	$(function () { $('#myModal').on('hide.bs.modal', function () {
+	alert('Thanks for your donation...');})
+	});
+</script>
+
+<script>
+	$('.carousel').carousel();
+</script>
+</body>
+</html>
